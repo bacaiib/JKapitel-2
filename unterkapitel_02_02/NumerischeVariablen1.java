@@ -16,3 +16,4 @@ public class NumerischeVariablen1 {
 
     }
 }
+ 
