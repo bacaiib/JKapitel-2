@@ -4,10 +4,10 @@ public class Datentypen {
 
     public static void main(String[] args) {
 
-        float kommazahl1 = 50f;
-        int ganzzahl1 = 50;
+        // float kommazahl1 = 50f;
+        // int ganzzahl1 = 50;
 
-        float kommazahl2 = ganzzahl1;
+        // float kommazahl2 = ganzzahl1;
         // int ganzzahl2 = kommazahl;
 
     }
