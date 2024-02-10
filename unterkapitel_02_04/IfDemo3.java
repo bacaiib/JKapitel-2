@@ -12,7 +12,7 @@ public class IfDemo3 {
         if (alter < 3 || alter > 99){
             System.out.println("Ungültige Zahl geben Sie eine Zahl zwischen 3 und 99 ein!");
         } else {
-            System.out.println(" Sie sind also " +alter+ " Jahre alt");
+            System.out.println("Sie sind also " +alter+ " Jahre alt");
         }
 
         if (alter <= 18 && alter > 12 ){
