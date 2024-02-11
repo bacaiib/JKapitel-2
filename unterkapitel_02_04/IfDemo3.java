@@ -9,13 +9,13 @@ public class IfDemo3 {
         System.out.println("Wie alt sind Sie?");
         alter = readInt();
 
-        if (alter < 3 || alter > 99){
+        if (alter < 3 | alter > 99){
             System.out.println("Ungültige Zahl geben Sie eine Zahl zwischen 3 und 99 ein!");
         } else {
             System.out.println("Sie sind also " +alter+ " Jahre alt");
         }
 
-        if (alter <= 18 && alter > 12 ){
+        if (alter <= 19 & alter > 12 ){
             System.out.println("Sie sind also ein Teenager!");
 
         } else if (alter > 18){
