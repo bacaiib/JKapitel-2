@@ -8,7 +8,6 @@ public class Fakulteat {
         long y = 1;
         int z = x;
 
-
         while ( x >= 2){
             y *= x;
             x--;
