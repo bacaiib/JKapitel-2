@@ -4,10 +4,14 @@ public class Wochen {
 
     public static void main(String[] args) {
         
-        String [] wochen = {"Monatg","Dienstag", "Mittwoch","Donnerstag","Freitag","Samstag","Sonnatg"};
+        String [] tage = {"Monatg","Dienstag", "Mittwoch","Donnerstag","Freitag","Samstag","Sonnatg"};
 
+        for (String tag: tage){
+            System.out.println(tag);
+        }
 
-        System.out.println("Die Woche beginnt am "+wochen[0]+" und endet am "+wochen[6]);
+        // for (int i = 0; i < tage.length;i++)
+        // System.out.println((i+1) + ". Tag in der Woche ist "+tage[i]);
     }
 
 }
