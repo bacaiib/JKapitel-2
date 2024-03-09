@@ -6,8 +6,9 @@ public class Potenz {
         
      
         System.out.println(potenzB(2, 4));
-
     }
+
+
 
     public static int potenzB(int n1, int n2){
         int j = n1;
